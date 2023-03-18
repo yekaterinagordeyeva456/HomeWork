@@ -6,12 +6,12 @@ public class Main {
         System.out.println("Книга 1:");
         Author authorName1 = new Author("Лев", "Толстой");
         Book book1 = new Book(authorName1, "Война и Мир", 1987);
-            System.out.println("book1.getAuthor() = " + book1.getAuthor());
-            System.out.println("book1.getName() = " + book1.getName());
-            System.out.println("book1.getPublishingYear() = " + book1.getPublishingYear());
+        System.out.println("book1.getAuthor() = " + book1.getAuthor());
+        System.out.println("book1.getName() = " + book1.getName());
+        System.out.println("book1.getPublishingYear() = " + book1.getPublishingYear());
         book1.setDatePublishing(2000);
-            System.out.println("book1.getPublishingYear() = " + book1.getPublishingYear());
-            System.out.println();
+        System.out.println("book1.getPublishingYear() = " + book1.getPublishingYear());
+        System.out.println();
         System.out.println("Книга 2:");
         Author authorName2 = new Author("Константин", "Беляев");
         Book book2 = new Book(authorName2, "Звезда КЭЦ", 1967);
@@ -35,5 +35,6 @@ public class Main {
         System.out.println("authorName1.hashCode() = " + authorName1.hashCode());
         System.out.println("authorName2.hashCode() = " + authorName2.hashCode());
         System.out.println("authorName3.hashCode() = " + authorName3.hashCode());
+
     }
 }
